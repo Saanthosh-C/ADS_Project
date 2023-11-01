@@ -23,7 +23,7 @@ transaction amount, and 28 anonymized features ('V1' to 'V28'). The target varia
 
 Install the necessary libraries using the following command:
 ```bash
-pip install -r requirements.txt
+pip install [library name]
 
 How to Run:
 
