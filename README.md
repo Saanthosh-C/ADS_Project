@@ -19,26 +19,20 @@ transaction amount, and 28 anonymized features ('V1' to 'V28'). The target varia
   - numpy
   - matplotlib
   - seaborn
-  - scikit-learn
+  - scikit-learn 
+- Install the necessary libraries using the following command: pip install [library name]
 
-Install the necessary libraries using the following command:
-```bash
-pip install [library name]
-
-## How to Run:
-
-1.Download the Dataset:
-	Download the dataset from the Kaggle dataset page.
-	Save the dataset as 'creditcard.csv' in the project directory.
-2.Run the Code:
-	Open and run the 'credit_card_fraud_detection.py' script in your preferred Python environment (e.g., Jupyter Notebook or a code editor).
-
-The script contains the following phases of the project:
-	Data Preprocessing: Data cleaning, handling missing values, scaling features, and encoding categorical variables.	
-	Feature Engineering: Creating new features to enhance fraud detection capabilities.
-	Model Training: Training a Random Forest classifier for fraud detection.
-	Model Evaluation: Evaluating the model's performance using precision, recall, F1-score, and ROC AUC.
-
+## How to Run
+- 1.Download the Dataset:
+	- Download the dataset from the Kaggle dataset page.
+	- Save the dataset as 'creditcard.csv' in the project directory.
+- 2.Run the Code:
+	- Open and run the 'credit_card_fraud_detection.py' script in your preferred Python environment (e.g., Jupyter Notebook or a code editor).
+- The script contains the following phases of the project:
+	- Data Preprocessing: Data cleaning, handling missing values, scaling features, and encoding categorical variables.	
+	- Feature Engineering: Creating new features to enhance fraud detection capabilities.
+	- Model Training: Training a Random Forest classifier for fraud detection.
+	- Model Evaluation: Evaluating the model's performance using precision, recall, F1-score, and ROC AUC.
 
 ## Acknowledgments
 
